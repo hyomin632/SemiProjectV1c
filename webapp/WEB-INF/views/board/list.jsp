@@ -63,7 +63,7 @@
 			newbtn.addEventListener('click', go2write);
 			
 			function go2write() {
-				location.href = '/write.jsp';
+				location.href = '/mvc/board/write';
 			}
 		</script>
    
