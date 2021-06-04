@@ -1,6 +1,7 @@
 <%@ page pageEncoding="UTF-8"%>
 
             <h2>로그인</h2>
+            <span style="color:red">${error}</span>
             <form name="loginfrm" id="loginfrm" method="post">
                 <div><label for="userid">아이디</label>
                      <input type="text" name="userid" id="userid">
